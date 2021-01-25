@@ -1,11 +1,14 @@
 import React from 'react';
-import Carousel from './Carousel'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Carousel from './component/Carousel'
+import Navbar from './component/Navbar'
 class App extends React.Component {
     render() {
         return (
             <div >
-                <h1>Hello World</h1>
+                <Navbar />
                 <Carousel />
+
             </div>
         )
     }
