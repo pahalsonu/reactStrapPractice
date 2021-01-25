@@ -3,7 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from './component/Carousel'
 import Navbar from './component/Navbar'
 import Strapcarousel from './component/Strapcarousel'
-import MarketingCards from './MarketingCards'
+import MarketingCards from './component/MarketingCards'
+import MarketingFeaturrette from './component/MarketingFeaturrette'
+
 class App extends React.Component {
     render() {
         return (
@@ -11,6 +13,7 @@ class App extends React.Component {
                 <Navbar />
                 <Strapcarousel />
                 <MarketingCards />
+                <MarketingFeaturrette  />
                 <Carousel />
 
             </div>
