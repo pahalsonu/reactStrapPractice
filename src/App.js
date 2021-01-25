@@ -3,12 +3,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from './component/Carousel'
 import Navbar from './component/Navbar'
 import Strapcarousel from './component/Strapcarousel'
+import MarketingCards from './MarketingCards'
 class App extends React.Component {
     render() {
         return (
             <div >
                 <Navbar />
-                <Strapcarousel  />
+                <Strapcarousel />
+                <MarketingCards />
                 <Carousel />
 
             </div>
